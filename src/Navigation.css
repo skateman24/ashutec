@@ -1,0 +1,65 @@
+
+.Navbar{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.Navicon_Container{
+    cursor: pointer;
+    border: 1px solid black;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 3px;
+    flex-direction: column;
+    font-size: 20px;
+}
+.Navicon{
+    width: 20px;
+    background-color: black;
+    height: 2px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.Nav_Subcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.SideBar{
+    width: 50px;
+}
+.Category_Bar{
+    width: 200px;
+    margin-top: 5px;
+    border: 1px solid red;
+    height: 100vh;
+}
+.CBTitle{
+    font-size: 17px;
+margin: 5px 0px;
+}
+.CB_List{
+    border: 1px solid black;
+padding: 5px;
+text-align: initial;
+margin: 5px 0px;
+}
+.NavTitle{
+    display: flex;
+align-items: center;
+}
+.Titlecard{
+    width: 70%;
+}
+.CBL_Tick{
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 19px;
+    width: 11px;
+    border-bottom: 4px solid #78b13f;
+    border-right: 4px solid #78b13f;
+    margin-right: 15px;
+    margin-left: 15px;
+}
